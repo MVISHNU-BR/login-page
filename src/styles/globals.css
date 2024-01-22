@@ -18,7 +18,3 @@ body {
   background: var(--background-color);
 }
 
-.content-form, .image {
-  border: 2px solid red;
-}
-
