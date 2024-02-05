@@ -30,7 +30,7 @@ export default function Home() {
             <input type="text" id="email" placeholder="alex@email.com" className="input mt-1 block w-full px-3 py-2  border border-slate-300 rounded-l-lg text-md shadow-sm placeholder-gray-600
           focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500" />
             
-            <div className="w-12 h-11 bg-blue-500 rounded-md mt-0.5 dark:inverter"><Image src="/email.svg" alt="icone email" className="m-2" width={25} height={25} /></div>
+            <div className="w-12 h-11 bg-blue-500 rounded-md mt-0.5 dark:inverter"><Image src="/email.svg" alt="icone email" className="m-2.5" width={25} height={25} /></div>
             
             </div>
 
@@ -40,7 +40,7 @@ export default function Home() {
             
             <input id="Password" type="password" placeholder="Enter your password" className="input mt-1 block w-full px-3 py-2 border border-slate-300 rounded-l-lg text-md shadow-sm placeholder-gray-600
             focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 " />
-            <div className="w-12 h-11 bg-blue-500 rounded-md mt-0.5 dark:inverter"><Image src="/password.svg" alt="icone password" className="m-2" width={25} height={25} /></div>
+            <div className="w-12 h-11 bg-blue-500 rounded-md mt-0.5 dark:inverter"><Image src="/password.svg" alt="icone password" className="m-2.5" width={25} height={25} /></div>
             
             </div>
 
