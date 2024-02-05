@@ -20,33 +20,35 @@ export default function Home() {
           height={59.54}
           priority />
 
-        <h2 className="text-black text-xl font-bold py-8">Login into your account</h2>
+        <h2 className="text-black text-xl font-extrabold py-8">Login into your account</h2>
 
         <form className="flex flex-col w-10/12">
 
           <label htmlFor="email">Email Address</label>
-          <div className="input-wrapper flex items-start">
+          <div className="input-wrapper flex items-start mb-8">
             
-            <input type="text" id="email" placeholder="alex@email.com" className="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-l-lg text-sm shadow-sm placeholder-slate-400
+            <input type="text" id="email" placeholder="alex@email.com" className="input mt-1 block w-full px-3 py-2  border border-slate-300 rounded-l-lg text-md shadow-sm placeholder-gray-600
           focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500" />
-            <Image src="/email.svg" alt="icone email" className="bg-blue-500 rounded-md mt-0.5 dark:inverter" width={50} height={50} />
+            
+            <div className="w-12 h-11 bg-blue-500 rounded-md mt-0.5 dark:inverter"><Image src="/email.svg" alt="icone email" className="m-2" width={25} height={25} /></div>
+            
             </div>
 
 
           <label htmlFor="Password">Password</label>
           <div className="input-wrapper flex items-center">
             
-            <input id="Password" type="password" placeholder="Enter your password" className="input mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-l-lg text-sm shadow-sm placeholder-slate-400
+            <input id="Password" type="password" placeholder="Enter your password" className="input mt-1 block w-full px-3 py-2 border border-slate-300 rounded-l-lg text-md shadow-sm placeholder-gray-600
             focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 " />
-            <Image src="/password.svg" alt="icone password" className="bg-blue-500 rounded-md mt-0.5 dark:inverter" width={50} height={50} />
+            <div className="w-12 h-11 bg-blue-500 rounded-md mt-0.5 dark:inverter"><Image src="/password.svg" alt="icone password" className="m-2" width={25} height={25} /></div>
             
             </div>
 
           <a href="#" className="text-right text-blue-900 underline mt-1">Forgot Password?</a>
 
         </form>
-        <div className="flex flex-col w-10/12 gap-2 mt-12">
-            <button className="bg-blue-400 rounded-md text-white py-1 hover:bg-blue-500">Login Now</button>
+        <div className="flex flex-col w-10/12 gap-8 mt-16">
+            <button className="bg-blue-400 rounded-md text-white py-3 hover:bg-blue-500 text-md font-semibold shadow-lg">Login Now</button>
             
             <div className="flex space-x-6 items-center">
               <div className="border-b-2 border-gray-300 w-5/12"></div>
@@ -54,7 +56,7 @@ export default function Home() {
               <div className="border-b-2 border-gray-300 w-5/12"></div>
             </div>
             
-            <button className="bg-transparent border border-blue-500  rounded-md text-blue-400 py-1 hover:bg-blue-500 hover:text-white">Signup Now</button>
+            <button className="bg-transparent border border-blue-500 text-lg font-bold rounded-md text-blue-400 py-3 hover:bg-blue-500 hover:text-white">Signup Now</button>
 
         </div>
 

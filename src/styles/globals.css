@@ -17,4 +17,7 @@
 body {
   background: var(--background-color);
 }
+.input{
+  background: var(--background-color);
+}
 
